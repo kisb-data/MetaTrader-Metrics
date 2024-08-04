@@ -4,12 +4,12 @@
 
 I created this project to enable the use of basic Metatrader metrics in Python. There are many possible calculations, but I think these are sufficient:
 
-RiskReward: This metric shows profitability (the number of trades does not impact the result).
-Z-Score: This measures the randomness of the strategy. It is different from the Z-score used in the tester. (https://www.mql5.com/en/articles/1492)
-Profit: The net profit.
-Trades: The number of trades, to ensure the comparison is valid in terms of trade volume.
-Buys/Sells: This shows whether the strategy is biased towards one side.
-Drawdown: If set to "abs," it calculates the drawdown in monetary value, else if you use Metatrader trade types and the type is not buy or sell, it will add the value to the capital and calculate the drawdown as a percentage of the capital.
+- RiskReward: This metric shows profitability (the number of trades does not impact the result).
+- Z-Score: This measures the randomness of the strategy. It is different from the Z-score used in the tester. (https://www.mql5.com/en/articles/1492)
+- Profit: The net profit.
+- Trades: The number of trades, to ensure the comparison is valid in terms of trade volume.
+- Buys/Sells: This shows whether the strategy is biased towards one side.
+- Drawdown: If set to "abs," it calculates the drawdown in monetary value, else if you use Metatrader trade types and the type is not buy or sell, it will add the value to the capital and calculate the drawdown as a percentage of the capital.
 
 
 ## License
